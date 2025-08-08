@@ -10,7 +10,7 @@ spec:
   - host: afbab0835c37a4fe490dbf92e03ff69d-1386864934.ap-south-1.elb.amazonaws.com
     http:
       paths:
-      - path: /api(/|$)(.*)
+      - path: /api
         pathType: Prefix
         backend:
           service:
